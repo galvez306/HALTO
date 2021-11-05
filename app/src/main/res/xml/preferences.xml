@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/preferences_titulo">
+        <EditTextPreference
+            android:icon="@drawable/ic_user"
+            android:key="prfNombre"
+            android:title="@string/preferences_nombre_completo" />
+        <EditTextPreference
+            android:icon="@drawable/ic_smartphone"
+            android:key="prfNumeroUno"
+            android:title="@string/preferences_telefono_uno" />
+        <EditTextPreference
+            android:icon="@drawable/ic_smartphones"
+            android:key="prfNumeroDos"
+            android:title="@string/preferences_telefono_dos" />
+    </PreferenceCategory>
+</PreferenceScreen>

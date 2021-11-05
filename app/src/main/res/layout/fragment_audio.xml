@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema_rojo"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".ColoresFragment">
+
+    <TextView
+        android:id="@+id/tvUno"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_textview_audio"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="48dp" />
+
+    <TextView
+        android:id="@+id/tvDos"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_textview_audio"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="48dp" />
+
+    <TextView
+        android:id="@+id/tvTres"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_textview_audio"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="48dp" />
+
+    <TextView
+        android:id="@+id/tvCuatro"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_textview_audio"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="48dp" />
+
+    <TextView
+        android:id="@+id/tvCinco"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_textview_audio"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="48dp" />
+
+    <ImageView
+        android:id="@+id/btnRepetir"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_repeat" />
+
+
+</LinearLayout>

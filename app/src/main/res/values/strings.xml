@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">HALTO</string>
+
+    <string name="login_nombre_completo">Nombre completo</string>
+    <string name="login_numero_de_confianza_uno">Numero de confianza</string>
+    <string name="login_numero_extra">Numero extra</string>
+    <string name="login_boton_confirmar">CONFIRMAR</string>
+    <string name="login_snack_campos_vacios">Debes llenar todos los campos</string>
+    <string name="login_snack_nombre_largo">El nombre debe ser menor a 50 caracteres</string>
+    <string name="login_snack_numeros_diferentes">Los números deben ser diferentes</string>
+    <string name="login_snack_numeros_largos">El número no puede exceder 15 digitos</string>
+
+    <string name="main_prueba_titulo">¡Bienvenido!</string>
+    <string name="main_prueba_descripcion">Prueba la aplicación siempre que quieras, no se mandará ningun mensaje si selecionas la opcion de prueba </string>
+    <string name="main_prueba"><u>Prueba</u></string>
+    <string name="main_gps_desactivado">El GPS está desactivado, ¿Quieres activarlo?</string>
+    <string name="main_gps_activar">Sí</string>
+
+    <string name="preferences_titulo">Datos personales</string>
+    <string name="preferences_nombre_completo">Nombre completo</string>
+    <string name="preferences_telefono_uno">Primer numero de confianza</string>
+    <string name="preferences_telefono_dos">Segundo numero de confianza</string>
+    <string name="preferences_longitud_nombre">El nombre no puede exceder 50 caracteres</string>
+
+    <string name="test_colores_presionar">Presiona el color</string>
+    <string name="test_colores_morado">MORADO</string>
+    <string name="test_colores_negro">NEGRO</string>
+    <string name="test_colores_amarillo">AMARILLO</string>
+    <string name="test_colores_rojo">ROJO</string>
+    <string name="test_colores_verde">VERDE</string>
+    <string name="test_colores_gris">GRIS</string>
+    <string name="test_colores_rosa">ROSA</string>
+    <string name="test_colores_cafe">CAFÉ</string>
+
+    <string name="test_equilibrio_etiqueta">¡Completa el círculo!</string>
+
+    <string-array name="test_audio_palabras_uno">
+        <item>BOBINA</item>
+        <item>GOMITA</item>
+        <item>BOCINA</item>
+        <item>HORMIGA</item>
+        <item>COCINA</item>
+    </string-array>
+    <string-array name="test_audio_palabras_dos">
+        <item>MUEBLE</item>
+        <item>FUERTE</item>
+        <item>COHETE</item>
+        <item>JUGUETE</item>
+        <item>SUERTE</item>
+    </string-array>
+    <string-array name="test_audio_palabras_tres">
+        <item>MANADA</item>
+        <item>BANANA</item>
+        <item>ALPACA</item>
+        <item>ADUANA</item>
+        <item>GUAYABA</item>
+    </string-array>
+
+    <string-array name="test_voz_oraciones">
+        <item>Anoche soñé que era un cocodrilo</item>
+        <item>Necesito unas buenas vacaciones</item>
+        <item>Leer te ayuda a reflexionar</item>
+        <item>La puerta está cerrada por fuera</item>
+        <item>No me gusta ir a dormir temprano</item>
+    </string-array>
+
+    <string name="resultado_resultado_good">¡Todo en orden, te encuentras bien!</string>
+    <string name="resultado_resultado_bad">¡No pasate la prueba, mantén la calma!</string>
+    <string name="resultado_considera">Considera</string>
+    <string name="resultado_sms_saludo">Hola, soy</string>
+    <string name="resultado_sms"> he fallado una prueba HALTO y tu eres mi contacto de confianza, por favor contactame, estoy en: </string>
+    <string name="resultado_error_abrir_app">No se encontró la aplicación</string>
+    <string name="resultado_error_abrir_llamadas">No se pudieron abrir las llamadas</string>
+
+
+    <string name="notificaciones_channel_id">channel.id.notification.normal</string>
+    <string name="notificaciones_channel_name">notificacion normal</string>
+
+
+</resources>

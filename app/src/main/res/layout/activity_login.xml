@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema_rojo"
+    android:id="@+id/contenedorLogin"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_marginTop="104dp"
+        android:src="@drawable/logo_nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/llLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_textview_login"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="4dp"
+            android:hint="@string/login_nombre_completo"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textSize="26dp" />
+
+        <EditText
+            android:id="@+id/etNumeroUno"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/background_textview_login"
+            android:drawableLeft="@drawable/ic_smartphone_login"
+            android:drawablePadding="4dp"
+            android:hint="@string/login_numero_de_confianza_uno"
+            android:inputType="phone"
+            android:padding="8dp"
+            android:textSize="26dp" />
+
+        <EditText
+            android:id="@+id/etNumeroDos"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/background_textview_login"
+            android:drawableLeft="@drawable/ic_smartphone_login"
+            android:drawablePadding="4dp"
+            android:hint="@string/login_numero_extra"
+            android:inputType="phone"
+            android:padding="8dp"
+            android:textSize="26dp" />
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/background_boton_login"
+            android:text="@string/login_boton_confirmar"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

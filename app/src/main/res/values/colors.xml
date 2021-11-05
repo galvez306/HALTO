@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="tema_azul">#478BA2</color>
+    <color name="tema_rojo">#DE5B6D</color>
+    <color name="tema_naranja">#E9765B</color>
+    <color name="tema_piel">#F2A490</color>
+    <color name="tema_aqua">#B9D4DB</color>
+
+    <color name="reloj_verde">#BDECB6</color>
+
+    <color name="boton_morado">#897AAB</color>
+    <color name="boton_negro">#000000</color>
+    <color name="boton_amarillo">#F9F0C2</color>
+    <color name="boton_rojo">#DE5B6D</color>
+    <color name="boton_verde">#7DB08D</color>
+    <color name="boton_gris">#D9D9D9</color>
+    <color name="boton_rosa">#FFC4DA</color>
+    <color name="boton_cafe">#CE9C6F</color>
+
+
+</resources>

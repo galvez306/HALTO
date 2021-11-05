@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ColoresFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnMorado"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/boton_morado"
+            android:text="@string/test_colores_morado"
+            android:textColor="@color/boton_morado" />
+
+        <Button
+            android:id="@+id/btnNegro"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/boton_negro"
+            android:text="@string/test_colores_negro"
+            android:textColor="@color/boton_negro" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnAmarillo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/boton_amarillo"
+            android:text="@string/test_colores_amarillo"
+            android:textColor="@color/boton_amarillo" />
+
+        <Button
+            android:id="@+id/btnRojo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/boton_rojo"
+            android:text="@string/test_colores_rojo"
+            android:textColor="@color/boton_rojo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPresionar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/test_colores_presionar"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:onClick="checarRespuesta"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/boton_rosa"
+            android:gravity="center_horizontal"
+            android:onClick="checarRespuesta"
+            android:textColor="@color/white"
+            android:textSize="34dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/boton_verde"
+            android:text="@string/test_colores_verde"
+            android:textColor="@color/boton_verde" />
+
+        <Button
+            android:id="@+id/btnGris"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/boton_gris"
+            android:text="@string/test_colores_gris"
+            android:textColor="@color/boton_gris" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnRosa"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/boton_rosa"
+            android:text="@string/test_colores_rosa"
+            android:textColor="@color/boton_rosa" />
+
+        <Button
+            android:id="@+id/btnCafe"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/boton_cafe"
+            android:text="@string/test_colores_cafe"
+            android:textColor="@color/boton_cafe" />
+    </LinearLayout>
+
+
+</LinearLayout>
