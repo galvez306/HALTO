@@ -4,14 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/tema_rojo"
-    android:orientation="vertical"
     android:gravity="center_horizontal"
+    android:orientation="vertical"
     tools:context=".RelojFragment">
 
     <ProgressBar
         android:id="@+id/pbReloj"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progressDrawable="@drawable/background_progressbar_reloj"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:indeterminateTint="@color/white"
+        android:background="@color/black"/>
 
 </LinearLayout>

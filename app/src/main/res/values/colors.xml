@@ -14,7 +14,8 @@
     <color name="tema_piel">#F2A490</color>
     <color name="tema_aqua">#B9D4DB</color>
 
-    <color name="reloj_verde">#BDECB6</color>
+    <color name="reloj_fondo">#181818</color>
+    <color name="reloj_color">#03FDC7</color>
 
     <color name="boton_morado">#897AAB</color>
     <color name="boton_negro">#000000</color>
