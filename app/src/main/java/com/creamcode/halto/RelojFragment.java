@@ -9,9 +9,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -20,10 +18,10 @@ public class RelojFragment extends Fragment {
 
     private RelojInterfaz relojInterfaz;
 
-    private TextView tvReloj;
+    private ProgressBar pgReloj;
 
-
-    private int tiempo;
+    private int tiempoActual;
+    private int tiempoBarra;
 
     private Timer timer = new Timer();
     TimerTask tarea;
@@ -38,11 +36,11 @@ public class RelojFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view =inflater.inflate(R.layout.fragment_reloj, container, false);
 
-        tvReloj = view.findViewById(R.id.tvReloj);
-
+        pgReloj = view.findViewById(R.id.pbReloj);
 
         Bundle bundle = getArguments();
-        tiempo = bundle.getInt("tiempo")/1000;
+        tiempoActual = bundle.getInt("tiempo")/1000;
+        tiempoBarra = tiempoActual;
         ejecutarTarea();
 
         return view;
@@ -55,12 +53,13 @@ public class RelojFragment extends Fragment {
                 getActivity().runOnUiThread(new TimerTask() {
                     @Override
                     public void run() {
-                        if(tiempo==0){
+                        if(tiempoActual ==0){
+                            pgReloj.setProgress(0);
                             relojInterfaz.tiempoTermino();
                             timer.cancel();
                         }else{
-                            tvReloj.setText(String.valueOf(tiempo));
-                            tiempo--;
+                            pgReloj.setProgress(tiempoActual *100/tiempoBarra);
+                            tiempoActual--;
                         }
                     }
                 });
@@ -70,7 +69,8 @@ public class RelojFragment extends Fragment {
     }
 
     public void cambiarTiempo(int newTime){
-        tiempo = newTime/1000;
+        tiempoActual = newTime/1000;
+        tiempoBarra = tiempoActual;
     }
 
     public void cancelTimer(){
