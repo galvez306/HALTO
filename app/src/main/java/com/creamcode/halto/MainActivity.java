@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
     String[] PERMISOS = {
             Manifest.permission.RECORD_AUDIO,
             Manifest.permission.SEND_SMS,
-            Manifest.permission.ACCESS_FINE_LOCATION,
             Manifest.permission.INTERNET
     };
 
@@ -124,21 +123,6 @@ public class MainActivity extends AppCompatActivity {
                 ActivityCompat.requestPermissions(this, PERMISOS, 1);
                 return false;
             }
-        }
-        //validar ubicacion
-        LocationManager service = (LocationManager) getSystemService(LOCATION_SERVICE);
-        boolean activadoGps = service.isProviderEnabled(LocationManager.GPS_PROVIDER);
-        if(!activadoGps){
-            Snackbar snackBar = Snackbar.make(findViewById(android.R.id.content), R.string.main_gps_desactivado, Snackbar.LENGTH_LONG);
-            snackBar.setAction(R.string.main_gps_activar, new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    snackBar.dismiss();
-                    startActivity(new Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS));
-                }
-            });
-            snackBar.show();
-            return false;
         }
         AudioManager am =(AudioManager) getSystemService(Context.AUDIO_SERVICE);
         am.setStreamVolume(AudioManager.STREAM_MUSIC, am.getStreamMaxVolume(AudioManager.STREAM_MUSIC), 0);
