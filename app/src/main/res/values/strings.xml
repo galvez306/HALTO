@@ -68,7 +68,8 @@
     <string name="resultado_resultado_bad">¡No pasate la prueba, mantén la calma!</string>
     <string name="resultado_considera">Considera</string>
     <string name="resultado_sms_saludo">Hola, soy</string>
-    <string name="resultado_sms"> he fallado una prueba HALTO y tu eres mi contacto de confianza, por favor contactame, estoy en: </string>
+    <string name="resultado_sms"> he fallado una prueba HALTO y tu eres mi contacto de confianza, por favor ponte en contacto conmigo, no me encuentro bien.</string>
+    <string name="resultado_sms_enviados">Mensajes enviados</string>
     <string name="resultado_error_abrir_app">No se encontró la aplicación</string>
     <string name="resultado_error_abrir_llamadas">No se pudieron abrir las llamadas</string>
 

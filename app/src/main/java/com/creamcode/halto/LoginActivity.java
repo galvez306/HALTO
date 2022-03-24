@@ -25,7 +25,6 @@ public class LoginActivity extends AppCompatActivity {
     String[] PERMISOS = {
             Manifest.permission.RECORD_AUDIO,
             Manifest.permission.SEND_SMS,
-            Manifest.permission.ACCESS_FINE_LOCATION,
             Manifest.permission.INTERNET
     };
 
